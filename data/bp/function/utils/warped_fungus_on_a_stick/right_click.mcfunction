@@ -1,0 +1,2 @@
+say hey
+scoreboard players reset @s right_click_warped_fungus_on_a_stick

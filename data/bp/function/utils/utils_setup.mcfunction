@@ -1,0 +1,1 @@
+scoreboard objectives add right_click_warped_fungus_on_a_stick used:minecraft.warped_fungus_on_a_stick "Right click"
