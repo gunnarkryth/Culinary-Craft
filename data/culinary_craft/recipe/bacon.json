@@ -7,12 +7,12 @@
     "result": {
         "id": "minecraft:cooked_porkchop",
         "components": {
-            "minecraft:custom_name": "\"Bacon\"",
             "minecraft:custom_model_data": {
                 "strings": [
                     "\"bacon\""
                 ]
-            }
+            },
+            "minecraft:item_name": "\"Bacon\""
         }
     }
 }
