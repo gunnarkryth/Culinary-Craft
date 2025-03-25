@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:campfire_cooking",
+  "category": "food",
+  "ingredient": [
+    "egg"
+  ],
+  "result": {
+    "id": "minecraft:cooked_chicken",
+    "components": {
+      "minecraft:custom_model_data": {
+        "strings": [
+          "fried_egg"
+        ]
+      },
+      "minecraft:item_name": "\"Fried Egg\"",
+      "minecraft:food": {
+        "nutrition": 3,
+        "saturation": 2
+      }
+    }
+  }
+}
