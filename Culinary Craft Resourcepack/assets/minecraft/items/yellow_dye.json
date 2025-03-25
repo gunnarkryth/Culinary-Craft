@@ -1,0 +1,19 @@
+{
+    "model": {
+        "type": "select",
+        "property": "custom_model_data",
+        "fallback": {
+            "type": "model",
+            "model": "item/yellow_dye"
+        },
+        "cases": [
+            {
+                "when": "dough",
+                "model": {
+                    "type": "model",
+                    "model": "item/dough"
+                }
+            }
+        ]
+    }
+}
