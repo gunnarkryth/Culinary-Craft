@@ -1,0 +1,35 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "category": "food",
+    "ingredients": [
+        [
+            "minecraft:pufferfish"
+        ]
+    ],
+    "result": {
+        "id": "minecraft:pufferfish",
+        "components": {
+            "minecraft:custom_model_data": {
+                "strings": [
+                    "fugu"
+                ]
+            },
+            "minecraft:item_name": "\"Fugu\"",
+            "minecraft:consumable": {
+                "on_consume_effects": [
+                    {
+                        "type": "minecraft:apply_effects",
+                        "effects": [
+                            {
+                                "id": "minecraft:instant_damage",
+                                "amplifier":256,
+                                "duration": 1
+                            }
+                        ],
+                        "probability": 0.028
+                    }
+                ]
+            }
+        }
+    }
+}

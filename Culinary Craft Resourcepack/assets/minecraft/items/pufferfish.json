@@ -1,0 +1,19 @@
+{
+    "model": {
+        "type": "select",
+        "property": "custom_model_data",
+        "fallback": {
+            "type": "model",
+            "model": "item/pufferfish"
+        },
+        "cases": [
+            {
+                "when": "fugu",
+                "model": {
+                    "type": "model",
+                    "model": "item/fugu"
+                }
+            }
+        ]
+    }
+}

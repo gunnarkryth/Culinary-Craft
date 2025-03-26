@@ -1,18 +1,18 @@
 {
-    "type": "minecraft:campfire_cooking",
-    "category": "food",
-    "ingredient": [
-      "minecraft:porkchop"
-    ],
-    "result": {
-      "id": "minecraft:cooked_porkchop",
-      "components": {
-        "minecraft:custom_model_data": {
-          "strings": [
-            "bacon"
-          ]
-        },
-        "minecraft:item_name": "Bacon"
-      }
+  "type": "minecraft:campfire_cooking",
+  "category": "food",
+  "ingredient": [
+    "minecraft:porkchop"
+  ],
+  "result": {
+    "id": "minecraft:cooked_porkchop",
+    "components": {
+      "minecraft:custom_model_data": {
+        "strings": [
+          "bacon"
+        ]
+      },
+      "minecraft:item_name": "Bacon"
     }
   }
+}

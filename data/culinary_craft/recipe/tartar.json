@@ -1,0 +1,50 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "category": "food",
+    "ingredients": [
+        [
+            "minecraft:beef"
+        ],
+        [
+            "minecraft:egg"
+        ]
+    ],
+    "result": {
+        "id": "minecraft:beef",
+        "components": {
+            "minecraft:custom_model_data": {
+                "strings": [
+                    "tartar"
+                ]
+            },
+            "minecraft:item_name": "\"Tartar\"",
+            "minecraft:consumable": {
+                "on_consume_effects": [
+                    {
+                        "type": "minecraft:apply_effects",
+                        "effects": [
+                            {
+                                "id": "minecraft:absorption",
+                                "amplifier": 1,
+                                "duration": 3000
+                            }
+                        ]
+                    },
+                    {
+                        "type": "minecraft:apply_effects",
+                        "effects": [
+                            {
+                                "id": "minecraft:infested",
+                                "duration": 6000,
+                                "show_particles": false,
+                                "show_icon": false,
+                                "ambient": true
+                            }
+                        ],
+                        "probability": 0.33
+                    }
+                ]
+            }
+        }
+    }
+}
