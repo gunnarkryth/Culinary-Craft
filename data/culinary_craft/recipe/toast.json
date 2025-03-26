@@ -1,0 +1,30 @@
+{
+    "type": "minecraft:smelting",
+    "category": "food",
+    "ingredient": [
+        "bread"
+    ],
+    "ingredients": [
+        [
+            "minecraft:bread"
+        ]
+    ],
+    "result": {
+        "id": "minecraft:bread",
+        "components": {
+            "minecraft:custom_model_data": {
+                "strings": [
+                    "toast"
+                ]
+            },
+            "minecraft:item_name": "\"Toast\"",
+            "minecraft:consumable": {
+                "consume_seconds": 0.33
+            },
+            "minecraft:food": {
+                "nutrition": 3,
+                "saturation": 2
+            }
+        }
+    }
+}

@@ -1,0 +1,38 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "food",
+  "ingredients": [
+    "dragon_egg",
+    "milk_bucket"
+  ],
+  "result": {
+    "id": "minecraft:cooked_chicken",
+    "components": {
+      "minecraft:custom_model_data": {
+        "strings": [
+          "ender_dragon_omelette"
+        ]
+      },
+      "minecraft:item_name": "\"Ender Dragon Omelette\"",
+      "minecraft:consumable": {
+        "on_consume_effects": [
+          {
+            "type": "minecraft:apply_effects",
+            "effects": [
+              {
+                "id": "minecraft:resistance",
+                "amplifier": 4,
+                "duration": 12000
+              }
+            ]
+          }
+        ]
+      },
+      "minecraft:food": {
+        "nutrition": 30,
+        "saturation": 23
+      },
+      "rarity": "epic"
+    }
+  }
+}

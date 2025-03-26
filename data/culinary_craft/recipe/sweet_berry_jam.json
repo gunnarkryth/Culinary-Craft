@@ -1,0 +1,35 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "category": "food",
+    "ingredients": [
+        [
+            "minecraft:sweet_berries"
+        ],[
+            "minecraft:sweet_berries"
+        ],
+        [
+            "minecraft:sugar"
+        ],
+        [
+            "minecraft:glass_bottle"
+        ]
+    ],
+    "result": {
+        "id": "minecraft:cooked_porkchop",
+        "components": {
+            "minecraft:custom_model_data": {
+                "strings": [
+                    "sweet_berry_jam"
+                ]
+            },
+            "minecraft:item_name": "\"Sweet Berry Jam\"",
+            "minecraft:food": {
+                "nutrition": 5,
+                "saturation": 10
+            },
+            "minecraft:use_remainder": {
+                "id": "minecraft:glass_bottle"
+            }
+        }
+    }
+}

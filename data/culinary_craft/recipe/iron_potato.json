@@ -1,24 +1,37 @@
 {
-    "type": "minecraft:crafting_shapeless",
+    "type": "minecraft:crafting_shaped",
     "category": "food",
     "ingredients": [
         [
-            "minecraft:pufferfish"
+            "minecraft:dragon_egg"
+        ],
+        [
+            "minecraft:milk_bucket"
         ]
     ],
+    "pattern": [
+        "111",
+        "101",
+        "111"
+    ],
+    "key": {
+        "0": [
+            "minecraft:potato"
+        ],
+        "1": "minecraft:iron_nugget"
+    },
     "result": {
-        "id": "minecraft:pufferfish",
+        "id": "minecraft:baked_potato",
         "components": {
             "minecraft:custom_model_data": {
                 "strings": [
-                    "fugu"
+                    "iron_potato"
                 ]
             },
-            "minecraft:item_name": "\"Fugu\"",
+            "minecraft:item_name": "\"Iron Potato\"",
             "minecraft:food": {
                 "nutrition": 1,
-                "saturation": 1,
-                "can_always_eat": true
+                "saturation": 9
             },
             "minecraft:consumable": {
                 "on_consume_effects": [
@@ -26,12 +39,10 @@
                         "type": "minecraft:apply_effects",
                         "effects": [
                             {
-                                "id": "minecraft:instant_damage",
-                                "amplifier": 10,
-                                "duration": 20
+                                "id": "minecraft:slowness",
+                                "duration": 600
                             }
-                        ],
-                        "probability": 0.028
+                        ]
                     }
                 ]
             }

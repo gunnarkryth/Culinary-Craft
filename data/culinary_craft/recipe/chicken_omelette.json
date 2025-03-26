@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "food",
+  "ingredients": [
+    "egg",
+    "egg",
+    "egg",
+    "milk_bucket"
+  ],
+  "result": {
+    "id": "minecraft:cooked_chicken",
+    "components": {
+      "minecraft:custom_model_data": {
+        "strings": [
+          "chicken_omelette"
+        ]
+      },
+      "minecraft:item_name": "\"Chicken Omelette\"",
+      "minecraft:food": {
+        "nutrition": 9,
+        "saturation": 6
+      }
+    }
+  }
+}

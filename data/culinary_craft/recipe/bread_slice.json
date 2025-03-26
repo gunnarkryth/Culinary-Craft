@@ -1,0 +1,28 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "category": "food",
+    "ingredients": [
+        [
+            "minecraft:bread"
+        ]
+    ],
+    "result": {
+        "id": "minecraft:bread",
+        "components": {
+            "minecraft:custom_model_data": {
+                "strings": [
+                    "bread_slice"
+                ]
+            },
+            "minecraft:item_name": "\"Bread Slice\"",
+            "minecraft:consumable": {
+                "consume_seconds": 0.33
+            },
+            "minecraft:food": {
+                "nutrition": 1,
+                "saturation": 1
+            }
+        },
+        "count": 6
+    }
+}

@@ -1,0 +1,38 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "food",
+  "ingredients": [
+    "sniffer_egg",
+    "milk_bucket"
+  ],
+  "result": {
+    "id": "minecraft:cooked_chicken",
+    "components": {
+      "minecraft:custom_model_data": {
+        "strings": [
+          "sniffer_omelette"
+        ]
+      },
+      "minecraft:item_name": "\"Sniffer Omelette\"",
+      "minecraft:consumable": {
+        "on_consume_effects": [
+          {
+            "type": "minecraft:apply_effects",
+            "effects": [
+              {
+                "id": "minecraft:luck",
+                "amplifier": 2,
+                "duration": 12000
+              }
+            ]
+          }
+        ]
+      },
+      "minecraft:food": {
+        "nutrition": 16,
+        "saturation": 11
+      },
+      "rarity": "uncommon"
+    }
+  }
+}
