@@ -9,3 +9,7 @@ execute as @e[type=item,nbt={Item:{id:"minecraft:milk_bucket"}}] at @s run funct
 execute as @e[tag=cheese] at @s run function culinary_craft:cheese/cheese_aging
 
 execute as @e[type=item,nbt={Item:{id:"minecraft:porkchop"}}] run function culinary_craft:dried/dried_ham
+
+execute as @e[tag=frying_pan] at @s run function culinary_craft:frying_pan/frying_pan
+
+# execute as @e[tag=new_block] at @s run function culinary_craft:new_block

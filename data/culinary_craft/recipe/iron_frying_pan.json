@@ -1,0 +1,46 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "pattern": [
+        " 00",
+        " 00",
+        "1  "
+    ],
+    "key": {
+        "0": [
+            "minecraft:iron_ingot"
+        ],
+        "1": [
+            "minecraft:stick"
+        ]
+    },
+    "result": {
+        "id": "minecraft:bat_spawn_egg",
+        "components": {
+            "minecraft:custom_model_data": {
+                "strings": [
+                    "iron_frying_pan"
+                ]
+            },
+            "minecraft:entity_data": {
+                "id": "minecraft:item_display",
+                "Tags": [
+                    "new_block",
+                    "iron",
+                    "frying_pan"
+                ],
+                "item": {
+                    "id": "minecraft:bat_spawn_egg",
+                    "components": {
+                        "minecraft:custom_model_data": {
+                            "strings": [
+                                "iron_frying_pan"
+                            ]
+                        }
+                    }
+                }
+            },
+            "minecraft:item_name": "\"Iron Frying Pan\""
+        }
+    }
+}

@@ -1,0 +1,45 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "pattern": [
+        " 00",
+        " 00",
+        "1  "
+    ],
+    "key": {
+        "0": [
+            "minecraft:copper_ingot"
+        ],
+        "1": [
+            "minecraft:stick"
+        ]
+    },
+    "result": {
+        "id": "minecraft:bat_spawn_egg",
+        "components": {
+            "minecraft:custom_model_data": {
+                "strings": [
+                    "copper_frying_pan"
+                ]
+            },
+            "minecraft:entity_data": {
+                "id": "minecraft:item_display",
+                "Tags": [
+                    "new_block",
+                    "copper",
+                    "frying_pan"
+                ],
+                "item": {
+                    "id": "minecraft:bat_spawn_egg",
+                    "components": {
+                        "minecraft:custom_model_data": {
+                            "strings": [
+                                "copper_frying_pan"
+                            ]
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
