@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "category": "food",
+    "ingredients": [
+        [
+            "minecraft:apple"
+        ],
+        [
+            "minecraft:green_dye"
+        ]
+    ],
+    "result": {
+        "id": "minecraft:apple",
+        "components": {
+            "minecraft:custom_model_data": {
+                "strings": [
+                    "green_apple"
+                ]
+            },
+            "minecraft:item_name": "\"Green apple\""
+        }
+    }
+}

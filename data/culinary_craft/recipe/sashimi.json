@@ -1,0 +1,24 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "category": "food",
+    "ingredients": [
+      [
+        "minecraft:cod",
+        "minecraft:salmon"
+      ],
+      [
+        "minecraft:dried_kelp"
+      ]
+    ],
+    "result": {
+      "id": "minecraft:cooked_cod",
+      "components": {
+        "minecraft:custom_model_data": {
+          "strings": [
+            "sashimi"
+          ]
+        },
+        "minecraft:item_name": "\"Sashimi\""
+      }
+    }
+  }

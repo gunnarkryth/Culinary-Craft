@@ -1,0 +1,40 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "category": "food",
+    "ingredients": [
+        [
+            "minecraft:rotten_flesh"
+        ],
+        [
+            "minecraft:nether_wart"
+        ],
+        [
+            "minecraft:bowl"
+        ]
+    ],
+    "result": {
+        "id": "minecraft:mushroom_stew",
+        "components": {
+            "minecraft:custom_model_data": {
+                "strings": [
+                    "verruga_con_carne"
+                ]
+            },
+            "minecraft:item_name": "\"Verruga Con Carne\"",
+            "minecraft:consumable": {
+                "on_consume_effects": [
+                    {
+                        "type": "minecraft:apply_effects",
+                        "effects": [
+                            {
+                                "id": "minecraft:hunger",
+                                "duration": 600
+                            }
+                        ],
+                        "probability": 0.4
+                    }
+                ]
+            }
+        }
+    }
+}
